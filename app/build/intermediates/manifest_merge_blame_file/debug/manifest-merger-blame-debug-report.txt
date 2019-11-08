@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.aps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Henrique Vitoriano\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="br.com.aps.Cadastrar_livros" />
+21-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:12:9-63
+21-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:12:19-51
+22        <activity android:name="br.com.aps.Br.com.aps.login.Tela_de_login" />
+22-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:13:9-68
+22-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:13:19-65
+23        <activity
+23-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:14:9-16:60
+24            android:name="br.com.aps.ui.login.LoginActivity"
+24-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:15:13-51
+25            android:label="@string/title_activity_login" />
+25-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:16:13-57
+26        <activity android:name="br.com.aps.SplashActivity" >
+26-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:17:19-49
+27            <intent-filter>
+27-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="br.com.aps.cadastrarClientes" />
+33-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:24:9-55
+33-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:24:19-52
+34        <activity android:name="br.com.aps.TelaConsultar" />
+34-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:25:9-51
+34-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:25:19-48
+35        <activity android:name="br.com.aps.TelaCadastrar" />
+35-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:26:9-51
+35-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:26:19-48
+36        <activity android:name="br.com.aps.MainActivity" />
+36-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:27:9-50
+36-->C:\Users\Henrique Vitoriano\Desktop\App_Biblioteca_virtual-master\APS\app\src\main\AndroidManifest.xml:27:19-47
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Henrique Vitoriano\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Henrique Vitoriano\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+40            android:authorities="br.com.aps.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Henrique Vitoriano\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Henrique Vitoriano\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Henrique Vitoriano\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+43    </application>
+44
+45</manifest>

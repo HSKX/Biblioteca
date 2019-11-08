@@ -1,0 +1,4 @@
+#Thu Nov 07 23:49:05 BRST 2019
+base.0=C\:\\Users\\Henrique Vitoriano\\Desktop\\App_Biblioteca_virtual-master\\APS\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
